@@ -23,7 +23,7 @@ const BourseFamiliale = () => {
 
             <div className="mb-8">
               <Link 
-                to="demandefinance" 
+                to="/demandefinance" 
                 className="inline-block px-6 py-3 bg-gray-600 text-white font-medium rounded-lg hover:bg-gray-900 transition-colors duration-300"
               >
                 <strong>Demander votre bourse non remboursable</strong>
@@ -46,7 +46,7 @@ const BourseFamiliale = () => {
 
             <p className="text-gray-700 mb-6">
               La méthodologie pour obtenir une bourse familiale non remboursable est très simple. Il vous suffit tous simplement de visiter notre site web officiel de financement. 
-              Ensuite, vous appuyez sur la partie : <strong><Link to="demandefinance/" className="text-gray-900 hover:underline">effectuer ma demande de financement</Link></strong> et vous remplissez notre formulaire de demande de financement en ligne puis vous envoyez.
+              Ensuite, vous appuyez sur la partie : <strong><Link to="/demandefinance" className="text-gray-900 hover:underline">effectuer ma demande de financement</Link></strong> et vous remplissez notre formulaire de demande de financement en ligne puis vous envoyez.
             </p>
 
             <p className="text-gray-700 mb-6">

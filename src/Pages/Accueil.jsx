@@ -21,7 +21,7 @@ const Home = () => {
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 px-5 sm:space-x-6 hover:animate-shake">
                         <Link
-                            to="/Demandefinance"
+                            to="/demandefinance"
                             className="bg-yellow-500 hover:bg-white text-black font-bold py-3 px-8 rounded-full text-base transition duration-300 "
                         >
                             Demander votre financement
@@ -56,7 +56,7 @@ const Home = () => {
 
                     <CardIcones />
                     {/* <div className='flex flex-wrap justify-center gap-4 mb-12'>
-                        <Link to="Demandefinance">
+                        <Link to="/demandefinance">
                             <div className="w-72 h-60 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <h3 className='text-lg font-bold mb-2'>Ordinateur / Téléphone / Connexion</h3>
@@ -65,7 +65,7 @@ const Home = () => {
                                     non remboursable en ligne.</p>
                             </div>
                         </Link>
-                        <Link to="Demandefinance">
+                        <Link to="/demandefinance">
                             <div className="w-72 h-60 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <h3 className='text-lg font-bold mb-2'>Page de demande financement</h3>
@@ -75,7 +75,7 @@ const Home = () => {
                                 </p>
                             </div>
                         </Link>
-                        <Link to="Demandefinance">
+                        <Link to="/demandefinance">
                             <div className="w-72 h-60 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <h3 className='text-lg font-bold mb-2'>Remplissage et Acceptation</h3>
@@ -85,7 +85,7 @@ const Home = () => {
                                 </p>
                             </div>
                         </Link>
-                        <Link to="Demandefinance">
+                        <Link to="/demandefinance">
                             <div className="w-72 h-60 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <h3 className='text-lg font-bold mb-2'>Soumettre votre demande de financement</h3>
                                 <p className='text-sm text-gray-600 '>Soumettez à présent votre demande de financement en ligne. Un retour vous sera envoyé par E-mail
@@ -95,7 +95,7 @@ const Home = () => {
                     </div> */}
                     <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mx-4 hover:animate-shake">
                         <Link
-                            to="Demandefinance"
+                            to="/demandefinance"
                             className="bg-yellow-500 hover:bg-white border-yellow-500 text-black font-bold py-3 px-4 rounded-full text-lg transition duration-300 text-center"
                         >
                             Demander votre financement
@@ -122,7 +122,7 @@ const Home = () => {
 
                     <Card />
                     {/* <div className='flex flex-wrap justify-center gap-4 mb-12 '> 
-                        <Link to="Demandefinance">
+                        <Link to="/demandefinance">
                             <div className="w-72  bg-white shadow-lg rounded-lg p-4 text-center h-auto">
                                 <div>
                                     <img
@@ -137,7 +137,7 @@ const Home = () => {
                                 </p>
                             </div>
                         </Link>
-                        <Link to="Demandefinance">
+                        <Link to="/demandefinance">
                             <div className="w-72 h-100 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <img
@@ -152,7 +152,7 @@ const Home = () => {
                                 </p>
                             </div>
                         </Link>
-                        <Link to="Demandefinance">
+                        <Link to="/demandefinance">
                             <div className="w-72 h-100 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <img
@@ -166,7 +166,7 @@ const Home = () => {
                                 </p>
                             </div>
                         </Link>
-                        <Link to="Demandefinance">
+                        <Link to="/demandefinance">
                             <div className="w-72 h-72 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <img

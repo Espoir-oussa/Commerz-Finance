@@ -44,7 +44,7 @@ const BesoinFinancement = () => {
 
                                 <div className="flex justify-center">
                                     <Link
-                                        to="Demandefinance"
+                                        to="/demandefinance"
                                         className="bg-gray-600 text-white px-6 py-3 rounded-full font-bold hover:bg-gray-900 transition-colors"
                                     >
                                         Obtenir votre financement

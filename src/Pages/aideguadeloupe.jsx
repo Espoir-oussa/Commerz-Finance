@@ -27,7 +27,7 @@ const Aideguadeloupe = () => {
 
           <div className="px-4 py-6">
             <Link
-              to="demandefinancement" 
+              to="/demandefinance" 
               className="inline-block bg-gray-600 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg transition duration-200 "
             >
               Effectuer votre demande de financement
@@ -51,7 +51,7 @@ const Aideguadeloupe = () => {
           <h2 className="text-xl font-bold text-gray-900 mb-4">Comment obtenir une subvention non remboursable en Guadeloupe ?</h2>
 
           <p className="mb-4">
-            Comme dans la plupart des départements de la France, l'obtention du financement sans remboursement est le même en Guadeloupe. En effet, vous devez avoir une raison valable, un projet avant de pouvoir vous décidez pour obtenir le financement. Suite à cela, connectez-vous sur internet grace à un téléphone ou ordinateur. C'est enfin le moment, visité notre page de <Link to="https://financement-non-remboursable.fr/demande-de-financement/" className="text-blue-600 hover:underline">demande de financement</Link> et remplissez notre formulaire en ligne.
+            Comme dans la plupart des départements de la France, l'obtention du financement sans remboursement est le même en Guadeloupe. En effet, vous devez avoir une raison valable, un projet avant de pouvoir vous décidez pour obtenir le financement. Suite à cela, connectez-vous sur internet grace à un téléphone ou ordinateur. C'est enfin le moment, visité notre page de <Link to="/demandefinance" className="text-blue-600 hover:underline">demande de financement</Link> et remplissez notre formulaire en ligne.
           </p>
 
           <p className="mb-6">

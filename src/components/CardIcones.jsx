@@ -53,7 +53,7 @@ const Card = () => {
             key={index}
             className="bg-gray-900 rounded-lg shadow-md overflow-hidden flex flex-col h-full hover:shadow-lg transition-shadow duration-300 hover:animate-shake"
           >
-            <Link to="Demandefinance">
+            <Link to="/demandefinance">
             <div className="p-4 flex justify-center ">
               <div className="bg-yellow-100 p-4 rounded-full">
                 {card.icon}

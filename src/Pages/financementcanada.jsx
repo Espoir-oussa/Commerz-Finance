@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FinancementCanada = () => {
   return (
@@ -26,7 +27,7 @@ const FinancementCanada = () => {
 
                 <div className="flex mb-4 sm:mx-7">
                   <Link
-                    to="demandefinance" 
+                    to="/demandefinance" 
                     className="bg-gray-500 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg"
                   >
                     <strong>Effectuer votre demande de financement non remboursable</strong>
@@ -47,7 +48,7 @@ const FinancementCanada = () => {
 
                 <p>Vous êtes un ressortissant canadien,vous vivez sur le territoire et vous souhaitez obtenir un financement non remboursable au Canada. La méthodologie est très simple. Vous devez préalablement avoir des bonnes raisons pour votre demande. 
                   Ensuite vous pouvez à présent vous rendre sur notre plateforme pour remplir notre 
-                  <Link to="demandefinance" className="text-gray-500">formulaire de demande de financement sans remboursable</Link>.</p>
+                  <Link to="/demandefinance" className="text-gray-500">formulaire de demande de financement sans remboursable</Link>.</p>
 
                 <h2 className="text-xl font-bold mt-8 mb-4">Combien de temps pour obtenir une réponse concernant ma demande de financement sans remboursement ?</h2>
 
@@ -73,7 +74,7 @@ const FinancementCanada = () => {
 
                 <div className="flex mt-8 mb-8">
                   <Link 
-                    to="demandefinance" 
+                    to="/demandefinance" 
                     className="bg-gray-500 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg"
                   >
                     <strong>Effectuer votre demande de financement non remboursable au Canada</strong>

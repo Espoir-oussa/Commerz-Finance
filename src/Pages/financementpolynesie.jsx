@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FinancementPolynesie = () => {
 	return (
@@ -35,7 +36,7 @@ const FinancementPolynesie = () => {
 
 								<div className="flex justify-center mb-6">
 									<Link
-										to="Demandefinance"
+										to="/demandefinance"
 										className="bg-gray-600 text-white px-6 py-3 rounded-full font-bold hover:bg-gray-900 transition-colors"
 									>
 										Effectuer votre demande de financement

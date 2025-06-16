@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SubventionSuisse = () => {
 	return (
@@ -27,7 +28,7 @@ const SubventionSuisse = () => {
 
 						<div className="mb-8">
 							<Link
-								to="Demandefinance"
+								to="/demandefinance"
 								className="inline-block px-6 py-3 bg-gray-600 text-white font-medium rounded-lg hover:bg-gray-900 transition-colors duration-300"
 							>
 								Effectuer votre demande de financement
@@ -76,7 +77,7 @@ const SubventionSuisse = () => {
 						<h2 className="text-2xl font-semibold text-gray mb-4">À quel moment effectué une demande de prêt sans remboursement.</h2>
 
 						<p className="text-gray-700">
-							Effectuer votre <Link to="Demandefinance/" className="text-gray font-bold hover:underline">demande en ligne</Link> à tout moment, à n'importe quelle heure vous souhaitez. Nous sommes disponibles 24H/24 pour étudier chaque demande, satisfaire les personnes dans le besoin.
+							Effectuer votre <Link to="/demandefinance" className="text-gray font-bold hover:underline">demande en ligne</Link> à tout moment, à n'importe quelle heure vous souhaitez. Nous sommes disponibles 24H/24 pour étudier chaque demande, satisfaire les personnes dans le besoin.
 						</p>
 					</div>
 				</div>
