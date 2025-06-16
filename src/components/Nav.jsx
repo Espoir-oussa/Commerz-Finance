@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 
 const Nav = () => {
     const location = useLocation();
@@ -20,9 +20,9 @@ const Nav = () => {
                 {/* Bloc logo + Google Translate + burger */}
                 <div className="flex items-center justify-between space-x-4 md:space-x-10 w-full md:w-auto">
                     {/* Logo */}
-                    <a href="/" className="flex items-center">
+                    <Link to="/" className="flex items-center">
                         <img src="/assets/logo.png" alt="Logo" className="w-16" />
-                    </a>
+                    </Link>
 
                     {/* Google Translate */}
                     <div id="google_translate_element" className="ml-20 text-sm "></div>
@@ -42,8 +42,8 @@ const Nav = () => {
                 >
                     {Links.map((link) => (
                         <li key={link.name}>
-                            <a
-                                href={link.link}
+                            <Link
+                                to={link.link}
                                 className={`block text-sm md:text-base font-medium ${
                                     isActive(link.link)
                                         ? 'text-yellow-500 underline underline-offset-4'
@@ -51,7 +51,7 @@ const Nav = () => {
                                 }`}
                             >
                                 {link.name}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>

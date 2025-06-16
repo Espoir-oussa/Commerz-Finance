@@ -13,7 +13,7 @@ export const Demandefinance = () => {
                     </p>
                 </div>
                 <div className='px-6 text-center'>
-                    <p className='text-sm italic'>NB: Une <a href="/" className='text-yellow-500 hover:text-white'>aide non remboursable </a> peut être accordée, allant de 1000€ jusqu’à 5 000 000 euros. Ceci sous forme d’une donation 
+                    <p className='text-sm italic'>NB: Une <Link to="/" className='text-yellow-500 hover:text-white'>aide non remboursable </Link> peut être accordée, allant de 1000€ jusqu’à 5 000 000 euros. Ceci sous forme d’une donation 
                         provenant du budget du FMI. Par conséquent, en cas de difficultés financières et sociales temporaires, il est possible 
                         d’obtenir, suite à une analyse de votre situation, un soutien exceptionnel non</p>
                 </div>

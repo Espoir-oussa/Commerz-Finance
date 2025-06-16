@@ -71,12 +71,12 @@ const ContactForm = () => {
           <p className="text-sm text-black text-center mb-4">
             Merci d’avoir visité <strong className="text-black">Financement Non Remboursable</strong>.
             Contactez-nous 7j/7, même en période de{' '}
-            <a href="https://www.info.gouv.fr/alerte/covid-19" className="text-black underline">Covid-19</a>.
+            <Link to="https://www.info.gouv.fr/alerte/covid-19" className="text-black underline">Covid-19</Link>.
           </p>
 
           <div className="text-center text-sm mb-4">
-            <p><strong>Email :</strong> <a href="mailto:info@financement-non-remboursable.fr" className=" hover:text-yellow-500">info@financement-non-remboursable.fr</a></p>
-            <p><strong>Tél :</strong> <a href="tel:+33751437627" className="hover:text-yellow-500">+33 751 437 627</a></p>
+            <p><strong>Email :</strong> <Link to="mailto:info@financement-non-remboursable.fr" className=" hover:text-yellow-500">info@financement-non-remboursable.fr</Link></p>
+            <p><strong>Tél :</strong> <Link to="tel:+33751437627" className="hover:text-yellow-500">+33 751 437 627</Link></p>
             <p className="font-semibold mt-2">
               1-2 Place de la Mairie<br />
               23300 Saint-Maurice-la-Souterraine, France
@@ -84,7 +84,7 @@ const ContactForm = () => {
           </div>
 
           <p className="text-xs text-gray-500 mb-5">
-            Remplissez tous les champs pour une réponse rapide sur les <a href="/" className="hover:text-yellow-500 underline">aides non remboursables</a>.
+            Remplissez tous les champs pour une réponse rapide sur les <Link to="/" className="hover:text-yellow-500 underline">aides non remboursables</Link>.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-4 text-sm">

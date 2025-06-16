@@ -3,6 +3,7 @@ import picture1 from '/assets/picture1.png'
 import SwiperCarousel from '../components/SwiperCarousel';
 import Card from '../components/card';
 import CardIcones from '../components/CardIcones';
+import { Link } from 'react-router-dom';
 
 
 
@@ -19,12 +20,12 @@ const Home = () => {
                         Avez-vous besoin d'un financement non remboursable dans un laps de temps court pour combler vos besoins ?
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 px-5 sm:space-x-6 hover:animate-shake">
-                        <a
-                            href="Demandefinance"
+                        <Link
+                            to="/Demandefinance"
                             className="bg-yellow-500 hover:bg-white text-black font-bold py-3 px-8 rounded-full text-base transition duration-300 "
                         >
                             Demander votre financement
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -55,7 +56,7 @@ const Home = () => {
 
                     <CardIcones />
                     {/* <div className='flex flex-wrap justify-center gap-4 mb-12'>
-                        <a href="Demandefinance">
+                        <Link to="Demandefinance">
                             <div className="w-72 h-60 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <h3 className='text-lg font-bold mb-2'>Ordinateur / Téléphone / Connexion</h3>
@@ -63,8 +64,8 @@ const Home = () => {
                                 <p className='text-sm text-gray-600 '>Vous devez disposer d'un ordinateur portable ou d'un téléphone portable suivi d'une connexion Internet pour effectuer votre demande de financement
                                     non remboursable en ligne.</p>
                             </div>
-                        </a>
-                        <a href="Demandefinance">
+                        </Link>
+                        <Link to="Demandefinance">
                             <div className="w-72 h-60 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <h3 className='text-lg font-bold mb-2'>Page de demande financement</h3>
@@ -73,8 +74,8 @@ const Home = () => {
                                     Demandez votre financement, ou tous simplement en cliquant sur le Menu pour vous rendre sur notre page : Demande de financement .
                                 </p>
                             </div>
-                        </a>
-                        <a href="Demandefinance">
+                        </Link>
+                        <Link to="Demandefinance">
                             <div className="w-72 h-60 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <h3 className='text-lg font-bold mb-2'>Remplissage et Acceptation</h3>
@@ -83,22 +84,22 @@ const Home = () => {
                                     et acceptez la condition de fournir des informations personnelles à votre propos.
                                 </p>
                             </div>
-                        </a>
-                        <a href="Demandefinance">
+                        </Link>
+                        <Link to="Demandefinance">
                             <div className="w-72 h-60 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <h3 className='text-lg font-bold mb-2'>Soumettre votre demande de financement</h3>
                                 <p className='text-sm text-gray-600 '>Soumettez à présent votre demande de financement en ligne. Un retour vous sera envoyé par E-mail
                                     dans les prochains 72H au plus .</p>
                             </div>
-                        </a>
+                        </Link>
                     </div> */}
                     <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mx-4 hover:animate-shake">
-                        <a
-                            href="Demandefinance"
+                        <Link
+                            to="Demandefinance"
                             className="bg-yellow-500 hover:bg-white border-yellow-500 text-black font-bold py-3 px-4 rounded-full text-lg transition duration-300 text-center"
                         >
                             Demander votre financement
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -119,9 +120,9 @@ const Home = () => {
                         subvention non remboursable vous est garantie avec certitude.
                     </p>
 
-                    <Card/>
+                    <Card />
                     {/* <div className='flex flex-wrap justify-center gap-4 mb-12 '> 
-                        <a href="Demandefinance">
+                        <Link to="Demandefinance">
                             <div className="w-72  bg-white shadow-lg rounded-lg p-4 text-center h-auto">
                                 <div>
                                     <img
@@ -135,8 +136,8 @@ const Home = () => {
                                     jusqu'à 1 000 000€
                                 </p>
                             </div>
-                        </a>
-                        <a href="Demandefinance">
+                        </Link>
+                        <Link to="Demandefinance">
                             <div className="w-72 h-100 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <img
@@ -150,8 +151,8 @@ const Home = () => {
                                     ressources. 1.000€ jusqu'à 50.000€
                                 </p>
                             </div>
-                        </a>
-                        <a href="Demandefinance">
+                        </Link>
+                        <Link to="Demandefinance">
                             <div className="w-72 h-100 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <img
@@ -164,8 +165,8 @@ const Home = () => {
                                     sous forme de subvention non remboursable Jusqu’à 3 000 000€.
                                 </p>
                             </div>
-                        </a>
-                        <a href="Demandefinance">
+                        </Link>
+                        <Link to="Demandefinance">
                             <div className="w-72 h-72 bg-white shadow-lg rounded-lg p-4 text-center">
                                 <div>
                                     <img
@@ -179,7 +180,7 @@ const Home = () => {
                                     les plus dévalorisés et les personnes victimes de catastrophes. elle varie de 1.000€ à 500.000€
                                 </p>
                             </div>
-                        </a>
+                        </Link>
                     </div> */}
                 </div>
             </section>

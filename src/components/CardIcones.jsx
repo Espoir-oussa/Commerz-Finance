@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const cards = [
   {
@@ -52,7 +53,7 @@ const Card = () => {
             key={index}
             className="bg-gray-900 rounded-lg shadow-md overflow-hidden flex flex-col h-full hover:shadow-lg transition-shadow duration-300 hover:animate-shake"
           >
-            <a href="Demandefinance">
+            <Link to="Demandefinance">
             <div className="p-4 flex justify-center ">
               <div className="bg-yellow-100 p-4 rounded-full">
                 {card.icon}
@@ -62,7 +63,7 @@ const Card = () => {
               <h3 className="text-yellow-500 font-bold text-sm uppercase mb-2">{card.title}</h3>
               <p className="text-white text-sm flex-grow">{card.description}</p>
             </div>
-            </a>
+            </Link>
           </div>
         ))}
       </div>

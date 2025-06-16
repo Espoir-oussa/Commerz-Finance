@@ -25,17 +25,17 @@ const FinancementCanada = () => {
                 <div className="h-5"></div>
 
                 <div className="flex mb-4 sm:mx-7">
-                  <a 
-                    href="demandefinance" 
+                  <Link
+                    to="demandefinance" 
                     className="bg-gray-500 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg"
                   >
                     <strong>Effectuer votre demande de financement non remboursable</strong>
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="h-4"></div>
 
-                <p>Le financement non remboursable au Canada est une forme d'<a href="/" className="text-gray-900">allocation non remboursable</a> versée aux personnes qui dispose un projet de développement personnel au Canada.</p>
+                <p>Le financement non remboursable au Canada est une forme d'<Link to="/" className="text-gray-900">allocation non remboursable</Link> versée aux personnes qui dispose un projet de développement personnel au Canada.</p>
 
                 <p>C'est aussi une aide non remboursable qui sera accordée par le FMI aux personnes / entreprises canadiennes pour la réalisation de leur différent projet de développement au Canada.</p>
 
@@ -47,7 +47,7 @@ const FinancementCanada = () => {
 
                 <p>Vous êtes un ressortissant canadien,vous vivez sur le territoire et vous souhaitez obtenir un financement non remboursable au Canada. La méthodologie est très simple. Vous devez préalablement avoir des bonnes raisons pour votre demande. 
                   Ensuite vous pouvez à présent vous rendre sur notre plateforme pour remplir notre 
-                  <a href="demandefinance" className="text-gray-500">formulaire de demande de financement sans remboursable</a>.</p>
+                  <Link to="demandefinance" className="text-gray-500">formulaire de demande de financement sans remboursable</Link>.</p>
 
                 <h2 className="text-xl font-bold mt-8 mb-4">Combien de temps pour obtenir une réponse concernant ma demande de financement sans remboursement ?</h2>
 
@@ -72,12 +72,12 @@ const FinancementCanada = () => {
                 <p>72H au plus, c'est le temps requis pour recevoir votre financement sur votre compte après avoir rempli tous les formalités légales. En raison du montant de financement non remboursable demandé, vous pouvez obtenir votre financement par un virement interac, un virement instantané ou un virement swift. Ceci étant, vous pouvez obtenir votre financement séance tenante sur votre compte après approbation du conseil d'évaluation et d'accord du financement.</p>
 
                 <div className="flex mt-8 mb-8">
-                  <a 
-                    href="demandefinance" 
+                  <Link 
+                    to="demandefinance" 
                     className="bg-gray-500 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg"
                   >
                     <strong>Effectuer votre demande de financement non remboursable au Canada</strong>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </article>

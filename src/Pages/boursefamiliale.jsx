@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const BourseFamiliale = () => {
   return (
@@ -17,16 +18,16 @@ const BourseFamiliale = () => {
             />
 
             <p className="text-gray-700 mb-6">
-              La bourse familiale non remboursable est une allocation familiale, un <strong><a href="/" className="text-gray-900 hover:underline">financement non remboursable</a></strong>, un prêt sans remboursement accordé par la FMI en collaboration avec l'union européenne et la banque mondiale dans le cadre de venir en aide aux personnes dans le besoin. Son objectif principal est de venir en aide aux familles dans le besoin et de lutter contre la pauvreté, le chômage à travers le monde.
+              La bourse familiale non remboursable est une allocation familiale, un <strong><Link to="/" className="text-gray-900 hover:underline">financement non remboursable</Link></strong>, un prêt sans remboursement accordé par la FMI en collaboration avec l'union européenne et la banque mondiale dans le cadre de venir en aide aux personnes dans le besoin. Son objectif principal est de venir en aide aux familles dans le besoin et de lutter contre la pauvreté, le chômage à travers le monde.
             </p>
 
             <div className="mb-8">
-              <a 
-                href="demandefinance" 
+              <Link 
+                to="demandefinance" 
                 className="inline-block px-6 py-3 bg-gray-600 text-white font-medium rounded-lg hover:bg-gray-900 transition-colors duration-300"
               >
                 <strong>Demander votre bourse non remboursable</strong>
-              </a>
+              </Link>
             </div>
 
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Quelles sont les personnes pouvant bénéficier une subvention familiale ?</h2>
@@ -38,14 +39,14 @@ const BourseFamiliale = () => {
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Qui finance l'allocation familiale non remboursable ?</h2>
 
             <p className="text-gray-700 mb-6">
-              Le <strong><a href="/" className="text-gray-900 hover:underline">financement non remboursable</a></strong> est financé par l'ONU, L'UE, la banque nationale, des entreprises privées et des particuliers à travers le monde pour soutenir les démunis.
+              Le <strong><Link to="/" className="text-gray-900 hover:underline">financement non remboursable</Link></strong> est financé par l'ONU, L'UE, la banque nationale, des entreprises privées et des particuliers à travers le monde pour soutenir les démunis.
             </p>
 
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Comment obtenir une subvention familiale non remboursable ?</h2>
 
             <p className="text-gray-700 mb-6">
               La méthodologie pour obtenir une bourse familiale non remboursable est très simple. Il vous suffit tous simplement de visiter notre site web officiel de financement. 
-              Ensuite, vous appuyez sur la partie : <strong><a href="demandefinance/" className="text-gray-900 hover:underline">effectuer ma demande de financement</a></strong> et vous remplissez notre formulaire de demande de financement en ligne puis vous envoyez.
+              Ensuite, vous appuyez sur la partie : <strong><Link to="demandefinance/" className="text-gray-900 hover:underline">effectuer ma demande de financement</Link></strong> et vous remplissez notre formulaire de demande de financement en ligne puis vous envoyez.
             </p>
 
             <p className="text-gray-700 mb-6">
@@ -89,23 +90,23 @@ const BourseFamiliale = () => {
             </p>
 
             <p className="text-gray-700 mb-6">
-              Pour plus d'informations, nous sommes disponibles pour vous répondre sur : <a href="https://www.facebook.com/Financement.non.remboursable00" className="text-gray-900 hover:underline"><strong>Facebook</strong></a> et <strong><a href="https://t.me/financement_non_remboursable" className="text-gray-900 hover:underline">Telegram</a></strong>
+              Pour plus d'informations, nous sommes disponibles pour vous répondre sur : <Link to="https://www.facebook.com/Financement.non.remboursable00" className="text-gray-900 hover:underline"><strong>Facebook</strong></Link> et <strong><Link to="https://t.me/financement_non_remboursable" className="text-gray-900 hover:underline">Telegram</Link></strong>
             </p>
 
             {/* <div className="flex space-x-4 mb-6">
-              <a href="https://www.facebook.com/Financement.non.remboursable00?mibextid=ZbWKwL" className="flex items-center text-blue-600 hover:text-blue-800">
+              <Link to="https://www.facebook.com/Financement.non.remboursable00?mibextid=ZbWKwL" className="flex items-center text-blue-600 hover:text-blue-800">
                 <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" />
                 </svg>
                 <span>Facebook</span>
-              </a>
+              </Link>
               
-              <a href="https://t.me/financement_non_remboursable" className="flex items-center text-blue-600 hover:text-blue-800">
+              <Link to="https://t.me/financement_non_remboursable" className="flex items-center text-blue-600 hover:text-blue-800">
                 <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M11.944 13.586l-1.476-1.426-6.846 6.764 2.284-6.764-1.476-1.426-3.684 1.426 11.763-11.763z" />
                 </svg>
                 <span>Telegram</span>
-              </a>
+              </Link>
             </div> */}
           </div>
         </div>

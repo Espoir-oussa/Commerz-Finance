@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const cards = [
   {
@@ -30,7 +31,7 @@ const cards = [
 const card = () => {
   return (
     <div className="bg-gray-50 py-10 px-4">
-      <a href="/">
+      <Link to="/">
       <div className="max-w-7xl mx-auto grid gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 ">
         {cards.map((card, index) => (
           <div
@@ -49,7 +50,7 @@ const card = () => {
           </div>
         ))}
       </div>
-      </a>
+      </Link>
     </div>
   );
 };
