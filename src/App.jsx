@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Accueil from './Pages/Accueil';
@@ -19,7 +18,7 @@ function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
-        {/* <Navbar /> */}
+        
         <Nav/>
         <main className="flex-grow">
           <Routes>
