@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import picture1 from '../assets/picture1.png';
+import logo from "/assets/logo.png";
+
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -56,13 +57,13 @@ const ContactForm = () => {
       <div className="bg-white shadow-xl rounded-3xl overflow-hidden max-w-5xl w-full grid md:grid-cols-2 border-4 border-gray-300 animate-float">
 
         {/* Image */}
-        <div className="hidden md:flex justify-center items-center bg-gray-900">
-          {/* <img
-            src={picture1}
+        <div className="hidden md:flex justify-center items-center bg-gray-100">
+          <img
+            src={logo}
             alt="Illustration"
-            className="object-cover h-full w-full"
-          /> */}
-          <h1 className='text-6xl font-bold text-yellow-500 text-center'>Logo</h1>
+            className="object-cover w-[50%]"
+          />
+          
         </div>
 
         {/* Formulaire */}

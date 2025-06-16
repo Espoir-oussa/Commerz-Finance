@@ -26,7 +26,7 @@ export default function SwiperCarousel() {
         {/* Slide 1 */}
         <div className="swiper-slide flex flex-col items-center px-4 select-none"> {/* Ajout de select-none */}
           <img
-            src="src/assets/woman1.jpg"
+            src="/assets/woman1.jpg"
             alt="Slide 1"
             className="w-32 h-32 object-cover rounded-full border-4 border-yellow-500 shadow-lg mb-4"
           />
@@ -45,7 +45,7 @@ export default function SwiperCarousel() {
         {/* Slide 2 */}
         <div className="swiper-slide flex flex-col items-center px-4 select-none">
           <img
-            src="src/assets/woman2.jpg"
+            src="/assets/woman2.jpg"
             alt="Slide 2"
             className="w-32 h-32 object-cover rounded-full border-4 border-yellow-500 shadow-lg mb-4"
           />
@@ -62,7 +62,7 @@ export default function SwiperCarousel() {
         {/* Slide 3 */}
         <div className="swiper-slide flex flex-col items-center px-4 select-none">
           <img
-            src="src/assets/woman3.jpg"
+            src="/assets/woman3.jpg"
             alt="Slide 2"
             className="w-32 h-32 object-cover rounded-full border-4 border-yellow-500 shadow-lg mb-4"
           />
@@ -80,7 +80,7 @@ export default function SwiperCarousel() {
         {/* Slide 4 */}
         <div className="swiper-slide flex flex-col items-center px-4 select-none">
           <img
-            src="src/assets/woman4.jpg"
+            src="/assets/woman4.jpg"
             alt="Slide 2"
             className="w-32 h-32 object-cover rounded-full border-4 border-yellow-500 shadow-lg mb-4"
           />
@@ -97,7 +97,7 @@ export default function SwiperCarousel() {
         {/* Slide 5 */}
         <div className="swiper-slide flex flex-col items-center px-4 select-none">
           <img
-            src="src/assets/man1.jpg"
+            src="/assets/man1.jpg"
             alt="Slide 2"
             className="w-32 h-32 object-cover rounded-full border-4 border-yellow-500 shadow-lg mb-4"
           />
@@ -114,7 +114,7 @@ export default function SwiperCarousel() {
         {/* Slide 6 */}
         <div className="swiper-slide flex flex-col items-center px-4 select-none">
           <img
-            src="src/assets/man2.jpg"
+            src="/assets/man2.jpg"
             alt="Slide 2"
             className="w-32 h-32 object-cover rounded-full border-4 border-yellow-500 shadow-lg mb-4"
           />

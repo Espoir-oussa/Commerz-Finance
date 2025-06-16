@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import picture1 from '../assets/picture1.png'
+import picture1 from '/assets/picture1.png'
 import SwiperCarousel from '../components/SwiperCarousel';
 import Card from '../components/card';
 import CardIcones from '../components/CardIcones';
@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <div className="font-sans bg-gray-50">
             {/* Bannière principale */}
-            <section className="bg-[url('/src/assets/picture1.png')] bg-cover bg-[position:center_5%]  bg-no-repeat text-white py-16 md:py-24 ">
+            <section className="bg-[url('/assets/picture1.png')] bg-cover bg-[position:center_5%]  bg-no-repeat text-white py-16 md:py-24 ">
                 <div className="container mx-auto px-4 text-center">
                     <h1 className="text-3xl md:text-5xl font-bold mb-6">Entreprise / Particulier</h1>
                     <p className="text-xm font-medium mb-8 max-w-2xl mx-auto">
